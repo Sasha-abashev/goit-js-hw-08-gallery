@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Галерея</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <ul class="gallery">
+    <li class="gallery__item">
+      <a
+        class="gallery__link"
+        href="https://cdn.pixabay.com/photo/2010/12/13/10/13/tulips-2546_1280.jpg"
+      >
+        <img
+          class="gallery__image"
+          src="https://cdn.pixabay.com/photo/2010/12/13/10/13/tulips-2546__340.jpg"
+          data-source="https://cdn.pixabay.com/photo/2010/12/13/10/13/tulips-2546_1280.jpg"
+          alt="Tulips"
+        />
+      </a>
+    </li>
+    <!-- Додай ще <li> з аналогічною структурою -->
+  </ul>
+
+  <!-- Модальне вікно -->
+  <div class="modal" id="modal">
+    <span class="modal__close">&times;</span>
+    <img class="modal__img" id="modal-img" />
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
